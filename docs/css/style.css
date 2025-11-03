@@ -3,7 +3,11 @@
     margin:0;
     padding :0;
     user-select: none;
-
+      -webkit-user-select: none;       
+  -webkit-touch-callout: none;       
+  -webkit-tap-highlight-color: transparent; 
+  outline: none;                     
+  border: none;  
 }
 
 #nav::before{
@@ -411,4 +415,5 @@ position: relative;
    #navsection{
     display: none;
    }
+
 }
