@@ -10,6 +10,25 @@
   border: none;  
 }
 
+button, a, input {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+
+  outline: none;
+  border: none;
+  background-color: transparent;
+  appearance: none;
+}
+
+*:focus {
+  outline: none;
+}
+
 #nav::before{
     content: "";
     background-color: black;
@@ -417,3 +436,4 @@ position: relative;
    }
 
 }
+
